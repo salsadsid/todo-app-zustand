@@ -2,9 +2,21 @@ import TodoInput from './components/TodoInput';
 import TodoList from './components/TodoList';
 import TodoFilters from './components/TodoFilters';
 
+import { Github } from 'lucide-react';
+
 function App() {
     return (
-        <div className="min-h-screen bg-slate-950 text-slate-100 py-12 px-4 sm:px-6 lg:px-8 font-sans selection:bg-indigo-500/30">
+        <div className="min-h-screen bg-slate-950 text-slate-100 py-12 px-4 sm:px-6 lg:px-8 font-sans selection:bg-indigo-500/30 relative">
+            <a
+                href="https://github.com/salsadsid/todo-app-zustand"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute top-4 right-4 flex items-center gap-2 p-2 text-slate-500 hover:text-indigo-400 transition-colors duration-200"
+                aria-label="Star on GitHub"
+            >
+                <span className="text-sm font-medium">Give Star</span>
+                <Github className="w-5 h-5" />
+            </a>
             <div className="max-w-2xl mx-auto">
                 <header className="mb-12 text-center">
                     <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent mb-2">

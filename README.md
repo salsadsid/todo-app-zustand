@@ -2,14 +2,9 @@
 
 A modern, responsive Todo application built with React, Vite, and Zustand for state management.
 
-[**Explore the docs »**](https://github.com/salsadsid/todo-app-zustand)
 
-<br />
-<div align="center">
-  <a href="https://github.com/salsadsid/todo-app-zustand">
-    <img src="https://img.shields.io/github/stars/salsadsid/todo-app-zustand?style=social" alt="GitHub stars">
-  </a>
-</div>
+![Todo App](<./src/assets/TodoApp.png>)
+
 
 
 ## Features
